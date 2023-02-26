@@ -1,4 +1,5 @@
-export const host = "http://localhost:5000";
+export const host =
+  "http://localhost:5000" || "https://chat-app-server-lzzk.onrender.com";
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
 export const userRoute = `${host}/api/auth/user`;
